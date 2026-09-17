@@ -1,4 +1,4 @@
-#Store Management System
+# Store Management System
 
 A desktop application for managing a small store's daily operations, built with C# (Windows Forms) and SQL Server.
 
@@ -8,7 +8,7 @@ Product management — add, update, delete, and search products by category
 Sales processing — record sales with automatic stock deduction and out-of-stock protection
 Reports — sales history with totals, and a low-stock report for restocking
 
-#Tech Stack
+# Tech Stack
 C# / .NET (Windows Forms)
 SQL Server (ADO.NET)
 
@@ -24,7 +24,7 @@ SQL Server (ADO.NET)
 | `FormSales.cs` | Sales entry and stock updates |
 | `FormReports.cs` | Sales and low-stock reports |
 
-#Getting Started
+# Getting Started
 Clone the repository
 Update the StoreDB connection string in App.config
 Run the provided SQL script to create the database schema
