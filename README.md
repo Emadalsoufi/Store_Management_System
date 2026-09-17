@@ -2,15 +2,17 @@
 
 A desktop application for managing a small store's daily operations, built with C# (Windows Forms) and SQL Server.
 
-Features
-Role-based login — Admin and Employee accounts with different permissions
-Product management — add, update, delete, and search products by category
-Sales processing — record sales with automatic stock deduction and out-of-stock protection
-Reports — sales history with totals, and a low-stock report for restocking
+## Features
 
-# Tech Stack
-C# / .NET (Windows Forms)
-SQL Server (ADO.NET)
+- **Role-based login** — Admin and Employee accounts with different permissions
+- **Product management** — add, update, delete, and search products by category
+- **Sales processing** — record sales with automatic stock deduction and out-of-stock protection
+- **Reports** — sales history with totals, and a low-stock report for restocking
+
+## Tech Stack
+
+- C# / .NET (Windows Forms)
+- SQL Server (ADO.NET)
 
 ## Project Structure
 
@@ -24,8 +26,9 @@ SQL Server (ADO.NET)
 | `FormSales.cs` | Sales entry and stock updates |
 | `FormReports.cs` | Sales and low-stock reports |
 
-# Getting Started
-Clone the repository
-Update the StoreDB connection string in App.config
-Run the provided SQL script to create the database schema
-Build and run the solution in Visual Studio
+## Getting Started
+
+1. Clone the repository
+2. Update the `StoreDB` connection string in `App.config`
+3. Run the provided SQL script to create the database schema
+4. Build and run the solution in Visual Studio
